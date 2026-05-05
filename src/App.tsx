@@ -210,7 +210,6 @@ export default function App() {
     drawFrame(0);
 
     // GSAP ScrollTrigger: map scroll to frame index
-    const obj = { frame: 0 };
 
     const st = ScrollTrigger.create({
       trigger: containerRef.current,
